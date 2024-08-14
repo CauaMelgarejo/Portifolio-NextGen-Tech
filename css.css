@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.tela1 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 1) 69%, #6b02a3 100%);
+    width: 100%;
+    height: 100vh;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    list-style: none;
+}
+
+li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 10px 20px;
+    font-size: 20px;
+
+}
+
+li a:hover {
+    background: #6b02a3;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+    transition: 0.2s;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 50px;
+}
+h3 {
+    text-align: center;
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 50px;
+}
+
+h4 {
+    text-align: center;
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 35px;
+}
+
+.tela2 {
+    background: rgb(107, 2, 163);
+    background: linear-gradient(180deg, rgba(107, 2, 163, 1) 0%, rgba(0, 0, 0, 1) 74%, rgba(0, 0, 0, 1) 100%);
+    width: 100%;
+    height: 100vh;
+}
+
+p {
+    text-align: right;
+    color: white;
+    font-family: "JetBrains Mono", monospace;
+    font-size: 35px;
+}
+
+.tela3 {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 74%, rgba(107, 2, 163, 1) 100%);
+}
