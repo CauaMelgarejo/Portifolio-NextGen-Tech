@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css.css">
+    <link rel="shortcut icon" type="logo.png" href="./img/logo.png"> <!-- botei o icone na pagina-->
     <title>NextGen Tech</title>
 </head>
 
@@ -18,17 +19,17 @@
     <section class="tela1">
         <br>
         <br>
-        <nav class="menu">
-            <ul>
+        <nav>
+            <ul class="menu">
                 <li>
-                    <a href="">Sobre</a>
+                    <a href="#sobreNos">Sobre</a> <!-- ancorei-->
                 </li>
 
                 <li>
                     <a href="">Projetos</a>
                 </li>
                 <li>
-                    <a href="">Contato</a>
+                    <a href="#membros">membros</a> <!-- ancorei-->
                 </li>
             </ul>
         </nav>
@@ -41,7 +42,7 @@
         <h4>Tech</h4>
     </section>
     <section class="tela2">
-        <h3>
+        <h3 id="sobreNos">
             SOBRE NÓS
         </h3>
         <img src="" alt="">
@@ -49,15 +50,18 @@
             acessíveis e
             desenvolvimento web para startups, pequenas empresas e empreendedores visionários
         </p>
-
+        
     </section>
     <section class="tela3">
-        <h3>Membros</h3>
-        <div class="conteiner">
+        <h3 id="membros">
+            Membros
+        </h3>
+        <div class="container">
             <div class="caua">
                 <h1>Olá, Sou Cauã Melgarejo</h1>
                 <p>Um Desenvolvedor frontend, Engenheiro de Software em formação apaixonado por tecnologia.</p>
-                <p>Sou um dos fundadores da NextGen Tech, uma iniciativa dedicada a oferecer soluções inovadoras no desenvolvimento web.</p>
+                <p>Sou um dos fundadores da NextGen Tech, uma iniciativa dedicada a oferecer soluções inovadoras no
+                    desenvolvimento web.</p>
                 <ul class="redes-sociais">
                     <li>
                         <a href="https://www.linkedin.com/in/cauã-gonçalves-melgarejo" title="Ir para o LinkedIn"
@@ -83,9 +87,39 @@
                     </li>
                 </ul>
             </div>
+            <!-- COLOQUEI MINHAS REDES-->
+            <div class="davi">
+                <h1>Olá, Sou Davi <br>Pereira</h1>
+                <p>Um Desenvolvedor back end, Desenvolvedor de software empenhado em aprender e por em prática o que aprendo.</p>
+                <p>Sou um dos fundadores da NextGen Tech, uma iniciativa dedicada a oferecer soluções inovadoras no
+                    desenvolvimento web.</p>
+                <ul class="redes-sociais">
+                    <li>
+                        <a href="https://www.linkedin.com/in/davi-pereira-241a60233/" title="Ir para o LinkedIn"
+                            target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/5196132638" title="Enviar Mensagem no Whatsapp" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/Davi-Oliveira-dev" title="Ir para o meu Github" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/davi.p_12/"
+                            title="Ir para o meu Instagram" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
-
-        </sect>
+    </section>
 </body>
 
 </html>

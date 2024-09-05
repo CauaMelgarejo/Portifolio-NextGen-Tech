@@ -1,4 +1,4 @@
-* {
+* * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -22,7 +22,7 @@ html {
     margin: 0 auto;
 }
 
-ul {
+.menu {
     display: flex;
     justify-content: right;
     align-items: right;
@@ -35,6 +35,8 @@ li a {
     font-weight: 800;
     padding: 10px 20px;
     font-size: 20px;
+    
+    
 
 }
 
@@ -44,6 +46,7 @@ li a:hover {
     border-radius: 10px;
     border: none;
     transition: 0.2s;
+    
 }
 
 h1 {
@@ -51,12 +54,15 @@ h1 {
     color: white;
     font-family: "JetBrains Mono", monospace;
     font-size: 50px;
+    border-radius: 100px;
 }
 h3 {
     text-align: center;
     color: white;
     font-family: "JetBrains Mono", monospace;
     font-size: 50px;
+    padding: 50px;
+    
 }
 
 h4 {
@@ -82,14 +88,29 @@ h4 {
     background: rgb(0, 0, 0);
     background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 74%, rgba(107, 2, 163, 1) 100%);
 }
-.caua{
-    width:50%;
+
+.redes-sociais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caua, .davi {
+    width: 50%;
     height: 50%;
-    background:#1b0029;
-    border: 5px solid whitesmoke;
+    background: #000000;
+    border: 5px solid #31014b;
     font-size: 25px;
     text-align: center;
     color: white;
     font-family: "JetBrains Mono", monospace;
+    box-sizing: border-box; /* Certifique-se de que o padding e a border sejam incluídos nas dimensões totais */
+    border-radius: 20px; /* botei borda arredondada */
+    margin: 5px; /* botei margem */
 }
-
