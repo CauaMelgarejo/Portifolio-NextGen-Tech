@@ -82,7 +82,12 @@ h4 {
     color: white;
     font-family: "JetBrains Mono", monospace;
 }
-
+.inframe{
+    background-color: red;
+    width: 150px;
+    height: 150px;
+    
+}
 
 .tela3 {
     background: rgb(0, 0, 0);
